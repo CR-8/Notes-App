@@ -1,37 +1,40 @@
-# Web3 Awards Website
+# Documents Drag & Drop App
 
-A modern web3-enabled awards platform built with React and Vite.
+A modern React application featuring draggable document cards with a clean, minimal interface.
 
 ## Features
 
-- Web3 wallet integration
-- Smart contract interaction
-- Awards submission and voting
-- Real-time updates
-- Responsive design
+- Draggable document cards with smooth animations
+- Dynamic card states (download/open)
+- Responsive design with Tailwind CSS
+- Custom styling with Poppins font
+- Framer Motion animations
 
 ## Tech Stack
 
-- React + Vite
-- Ethereum/Web3
-- Smart Contracts
-- TypeScript
+- React 18
 - Tailwind CSS
+- Framer Motion
+- React Icons
+- Vite
 
 ## Getting Started
 
 1. Clone the repository
+
 ```bash
-git clone [your-repo-url]
+git clone [repository-url]
 cd WEB3
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 3. Run development server
+
 ```bash
 npm run dev
 ```
@@ -39,6 +42,7 @@ npm run dev
 ## Environment Setup
 
 Create a `.env` file in the root directory:
+
 ```
 VITE_CONTRACT_ADDRESS=your_contract_address
 VITE_RPC_URL=your_rpc_url
